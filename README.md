@@ -7,6 +7,33 @@
     <title>Bootstrap-grid</title>
 </head>
 <body>
+     element.style {
+}
+td {
+    padding: 10px;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+td {
+    background-color: rgba(13, 42, 156, 0.568);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.table1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    border-collapse: collapse;
+}
+table {
+    border-collapse: collapse;
+}
     <table class="table1">
         <tr>
     <div class="container">
@@ -107,32 +134,5 @@
     </div>
     </tr>
     </table>
-  element.style {
-}
-td {
-    padding: 10px;
-    border: 2px solid red;
-    border-collapse: collapse;
-}
-td {
-    background-color: rgba(13, 42, 156, 0.568);
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-td {
-    display: table-cell;
-    vertical-align: inherit;
-}
-.table1 {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid rgb(255, 0, 0);
-    border-collapse: collapse;
-}
-table {
-    border-collapse: collapse;
-}
 </body>
 </html>
